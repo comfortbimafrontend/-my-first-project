@@ -76,7 +76,7 @@ function App() {
       <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '50px 20px' }}>
         <h2 style={{ color: '#E0E0E0', margin: '0 0 20px 0' }}>Let's Work Together!</h2>
         <p>I'm open to opportunities, internships, and freelance work.</p>
-       <p>📧 <a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a> | Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
+       <p>📧 <a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}><a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a></a> | Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
         <p style={{ fontSize: '14px', opacity: 1 }}>© 2026 Comfort Bima. Built with React.</p>
       </div>
 
