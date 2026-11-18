@@ -74,21 +74,13 @@ function App() {
 
       {/* CONTACT */}
       <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '50px 20px' }}>
-        <h3 style={{ color: '#E0E0E0', margin: '0 0 20px 0' }}>Let's Work Together!</h3>
+        <h2 style={{ color: '#E0E0E0', margin: '0 0 20px 0' }}>Let's Work Together!</h2>
         <p>I'm open to opportunities, internships, and freelance work.</p>
        <p>📧 <a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a> | Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
         <p style={{ fontSize: '14px', opacity: 1 }}>© 2026 Comfort Bima. Built with React.</p>
       </div>
 
-{/* CONTACT ME SECTION */}
-<section id="contact" style={{ padding: '60px 20px', background: '#0ea5e9', textAlign: 'center' }}>
-  <h2 style={{ fontSize: '32px', color: 'white' }}>Let's Work Together! 💌</h2>
-  <p style={{ color: 'white', fontSize: '18px' }}>Do you like my work? I would love to hear from you!</p>
 
-  <a href="bimadunamifson@gmail.com" style={{ display: 'inline-block', background: 'white', color: '#0ea5e9', padding: '15px 30px', borderRadius: '25px', fontWeight: 'bold', textDecoration: 'none', marginTop: '20px', fontSize: '18px' }}>
-    Contact Me 📩
-  </a>
-</section>
     </div>
   )
 }
