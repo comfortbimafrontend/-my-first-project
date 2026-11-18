@@ -12,8 +12,30 @@ function App() {
         </p>
         <a href="#projects" style={{ backgroundColor: '#e94560', color: 'white', padding: '12px 25px', borderRadius: '25px', textDecoration: 'none', fontWeight: 'bold' }}>
           See My Work ↓
+          
         </a>
+        {/* MY PROJECTS SECTION */}
+<section id="projects" style={{ padding: '60px 20px', background: '#f0f9ff', textAlign: 'center' }}>
+  <h2 style={{ fontSize: '32px', color: '#0ea5e9' }}>See My Work 💻</h2>
+  <p style={{ color: '#555' }}>Here are projects I built with love.</p>
+
+  <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '30px' }}>
+
+    <div style={{ background: 'white', padding: '25px', borderRadius: '15px', width: '300px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+      <h3>🏫 School Environment Website</h3>
+      <p style={{ color: '#555' }}>A beautiful website that shows my school environment and facilities — classrooms, library, science lab, and sports ground — so visitors can see how lovely our school is.</p>
+    </div>
+
+    <div style={{ background: 'white', padding: '25px', borderRadius: '15px', width: '300px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+      <h3>⏱️ Sky Blue Stopwatch</h3>
+      <p style={{ color: '#555' }}>A beautiful sky-blue stopwatch I built with Start, Stop and Reset buttons. It helps you time your study, sports, and games accurately.</p>
+    </div>
+
+  </div>
+</section>
+        
       </div>
+      
 
       {/* ABOUT */}
       <div style={{ maxWidth: '800px', margin: '50px auto', padding: '0 20px', textAlign: 'center' }}>
