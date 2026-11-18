@@ -22,12 +22,12 @@ function App() {
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '30px' }}>
 
     <div style={{ background: 'white', padding: '25px', borderRadius: '15px', width: '300px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
-      <h3>🏫 School Environment Website</h3>
+      <h3 style={{ color: '#111' }}>🏫 School Environment Website</h3>
       <p style={{ color: '#555' }}>A beautiful website that shows my school environment and facilities — classrooms, library, science lab, and sports ground — so visitors can see how lovely our school is.</p>
     </div>
 
     <div style={{ background: 'white', padding: '25px', borderRadius: '15px', width: '300px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
-      <h3>⏱️ Sky Blue Stopwatch</h3>
+      <h3 style={{ color: '#111' }}>⏱️ Sky Blue Stopwatch</h3>
       <p style={{ color: '#555' }}>A beautiful sky-blue stopwatch I built with Start, Stop and Reset buttons. It helps you time your study, sports, and games accurately.</p>
     </div>
 
