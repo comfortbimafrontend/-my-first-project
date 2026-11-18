@@ -33,6 +33,15 @@ function App() {
 
   </div>
 </section>
+{/* CONTACT ME SECTION */}
+<section id="contact" style={{ padding: '60px 20px', background: '#0ea5e9', textAlign: 'center' }}>
+  <h2 style={{ fontSize: '32px', color: 'white' }}>Let's Work Together! 💌</h2>
+  <p style={{ color: 'white', fontSize: '18px' }}>Do you like my work? I would love to hear from you!</p>
+
+  <a href="bimadunamifson@gmail.com" style={{ display: 'inline-block', background: 'white', color: '#0ea5e9', padding: '15px 30px', borderRadius: '25px', fontWeight: 'bold', textDecoration: 'none', marginTop: '20px', fontSize: '18px' }}>
+    Contact Me 📩
+  </a>
+</section>
         
       </div>
       
