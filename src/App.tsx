@@ -3,8 +3,8 @@ function App() {
     <div style={{ fontFamily: 'Arial, sans-serif', margin: 0, padding: 0, backgroundColor: '#f8f9fa', color: '#222' }}>
       
       {/* HERO */}
-      <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '80px 20px' }}>
-        <h1 style={{ fontSize: '48px', margin: '0' }}>Hello, I'm Comfort 👋</h1>
+      <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '100px 20px 60px 20px' }}>
+       <h1 style={{ fontSize: '32px', margin: '0 0 20px 0', color: 'white' }}>Hello, I'm Comfort 👋</h1>
         <p style={{ fontSize: '22px', color: '#e94560' }}>Frontend Developer | React + TypeScript</p>
         <p style={{ maxWidth: '600px', margin: '20px auto' }}>
           I build beautiful, simple and user-friendly websites. 
@@ -51,10 +51,10 @@ function App() {
 
       {/* CONTACT */}
       <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '50px 20px' }}>
-        <h2>Let's Work Together!</h2>
+        <h3 style={{ color: '#E0E0E0', margin: '0 0 20px 0' }}>Let's Work Together!</h3>
         <p>I'm open to opportunities, internships, and freelance work.</p>
-        <p>📧 Email me | Find me on GitHub: comfortbimafrontend</p>
-        <p style={{ fontSize: '14px', opacity: 0.7 }}>© 2026 Comfort Bima. Built with React.</p>
+       <p>📧 <a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a> | Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
+        <p style={{ fontSize: '14px', opacity: 1 }}>© 2026 Comfort Bima. Built with React.</p>
       </div>
 
     </div>
