@@ -1,16 +1,20 @@
 function App() {
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', margin: 0, padding: 0, backgroundColor: '#f8f9fa', color: '#222' }}>
-      
+   <div style={{ backgroundColor: '#0f172a', color: 'white', textAlign: 'center', padding: '30px 40px 60px 40px', boxSizing: 'border-box' }}>
       {/* HERO */}
-      <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '100px 20px 60px 20px' }}>
+      <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '30px 20px 60px 20px' }}>
+        <img 
+  src="/comfort.jpg" 
+  alt="Comfort" 
+  style={{ width: '170px', height: '170px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', border: '4px solid #FACC15', display: 'block', margin: '0 auto 16px' }} 
+/>
        <h1 style={{ fontSize: '32px', margin: '0 0 20px 0', color: 'white' }}>Hello, I'm Comfort 👋</h1>
         <p style={{ fontSize: '22px', color: '#e94560' }}>Frontend Developer | React + TypeScript</p>
         <p style={{ maxWidth: '600px', margin: '20px auto' }}>
           I build beautiful, simple and user-friendly websites. 
           After 10 years of learning, I am now showing my proof, one project at a time.
         </p>
-        <a href="#projects" style={{ backgroundColor: '#e94560', color: 'white', padding: '12px 25px', borderRadius: '25px', textDecoration: 'none', fontWeight: 'bold' }}>
+        <a href="#projects" style={{ marginTop: '20px', display: 'inline-block', backgroundColor: '#e94560', color: 'white', padding: '12px 25px', borderRadius: '25px', textDecoration: 'none', fontWeight: 'bold' }}>
           See My Work ↓
           
         </a>
@@ -40,32 +44,32 @@ function App() {
 
       {/* ABOUT */}
       <div style={{ maxWidth: '800px', margin: '50px auto', padding: '0 20px', textAlign: 'center' }}>
-        <h2>About Me</h2>
-        <p>
+        <h2 style={{ color: 'white' }}>About Me</h2>
+        <p style={{ fontSize: '24px', fontWeight: 'bold' }}>
           Hi! I'm Comfort Bima. I'm a Frontend Developer based in Nigeria, passionate about turning ideas into real websites.
           I love React, TypeScript, and clean design. My goal is to work with a company like Micro1 and grow into a professional developer.
         </p>
       </div>
 
       {/* SKILLS */}
-      <div style={{ maxWidth: '800px', margin: '40px auto', padding: '0 20px', textAlign: 'center' }}>
-        <h2>My Skills</h2>
+      <div style={{flexWrap: 'wrap',justifyContent: 'center', maxWidth: '800px', margin: '40px auto', padding: '0 20px', textAlign: 'center' }}>
+        <h2 style={{ color: 'white' }}>My Skills</h2>
         <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
           {['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'Git & GitHub'].map(skill => (
-            <span key={skill} style={{ backgroundColor: 'white', border: '1px solid #ddd', padding: '10px 20px', borderRadius: '20px', fontWeight: 'bold' }}>{skill}</span>
+            <span key={skill} style={{ backgroundColor: '#1e293b', border: '1px solid #ddd', padding: '10px 20px', borderRadius: '20px', fontWeight: 'bold' }}>{skill}</span>
           ))}
         </div>
       </div>
 
       {/* PROJECTS */}
       <div id="projects" style={{ maxWidth: '800px', margin: '50px auto', padding: '0 20px', textAlign: 'center' }}>
-        <h2>My Projects</h2>
-        <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '15px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)' }}>
+        <h2 style={{ color: 'white' }}>My Projects</h2>
+        <div style={{ backgroundColor: '#1e293b', padding: '30px', borderRadius: '15px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)' }}>
           <h3>🌟 Project 1: My First Project</h3>
           <p>My first React + TypeScript project pushed to GitHub. The start of my proof.</p>
           <p><b>Tech:</b> React, TypeScript, Vite</p>
         </div>
-        <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '15px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)', marginTop: '20px' }}>
+        <div style={{ backgroundColor: '#1e293b', padding: '30px', borderRadius: '15px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)', marginTop: '20px' }}>
           <h3>💼 Project 2: My Portfolio (This Website!)</h3>
           <p>My personal portfolio website to showcase my skills and journey.</p>
           <p><b>Tech:</b> React, TypeScript, CSS</p>
@@ -76,7 +80,8 @@ function App() {
       <div style={{ backgroundColor: '#1a1a2e', color: 'white', textAlign: 'center', padding: '50px 20px' }}>
         <h2 style={{ color: '#E0E0E0', margin: '0 0 20px 0' }}>Let's Work Together!</h2>
         <p>I'm open to opportunities, internships, and freelance work.</p>
-       <p>📧 <a href="mailto:bimadunamifson@gmail.com" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a>| Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
+       <p>📧 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bimadunamifson@gmail.com" target="_blank" style={{ color: 'white', fontWeight: 'bold' }}>Email me</a><br/>
+       Find me on GitHub: <a href="https://github.com/comfortbimafrontend" style={{ color: 'white', fontWeight: 'bold' }}>comfortbimafrontend</a></p>
         <p style={{ fontSize: '14px', opacity: 1 }}>© 2026 Comfort Bima. Built with React.</p>
       </div>
 
